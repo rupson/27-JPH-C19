@@ -1,0 +1,43 @@
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.title {
+    width: 100%;
+    font-size: 64px;
+    text-align: center;
+}
+
+.divider {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.dividerTitle {
+    display: inline-flex;
+    border-bottom: solid 1px white;
+    width: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.addIncidentButton {
+    height: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
